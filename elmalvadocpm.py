@@ -1,8 +1,8 @@
 import requests
 
-__ENDPOINT_URL__: str = "https://kryzstoff1.squareweb.app/api"
+__ENDPOINT_URL__: str = "https://elmalvado1.squareweb.app/api"
 
-class Krystoff1:
+class elmalvado1:
     def __init__(self, access_key) -> None:
         self.auth_token = None
         self.access_key = access_key

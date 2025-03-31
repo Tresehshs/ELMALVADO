@@ -11,7 +11,7 @@ from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
 
-from kryzscpm import Krystoff1
+from elmalvadocpm import Tresehshs
 
 __CHANNEL_USERNAME__ = "Bab4tforeal"
 __GROUP_USERNAME__   = "Bab4tforeal"
@@ -139,7 +139,7 @@ if __name__ == "__main__":
         acc_password = prompt_valid_value("[bold][?] Account Password[/bold]", "Password", password=False)
         acc_access_key = prompt_valid_value("[bold][?] Access Key[/bold]", "Access Key", password=False)
         console.print("[bold cyan][%] Trying to Login[/bold cyan]: ", end=None)
-        cpm = Krystoff1(acc_access_key)
+        cpm = elmalvado1(acc_access_key)
         login_response = cpm.login(acc_email, acc_password)
         if login_response != 0:
             if login_response == 100:

@@ -11,7 +11,7 @@ from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
 
-from elmalvadocpm import Tresehshs
+from elmalvadocarpark import Tresehshs
 
 __CHANNEL_USERNAME__ = "EELMALVADOMAINCHANNEL"
 __GROUP_USERNAME__   = "ElmalvadoMainChat"

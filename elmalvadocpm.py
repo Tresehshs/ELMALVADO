@@ -2,7 +2,7 @@ import requests
 
 __ENDPOINT_URL__: str = "https://elmalvado1.squareweb.app/api"
 
-class elmalvado1:
+class Tresehshs:
     def __init__(self, access_key) -> None:
         self.auth_token = None
         self.access_key = access_key
